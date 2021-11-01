@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.cursor-pointer:hover {
+  cursor: pointer;
+  color: white;
+  background-color: dodgerblue;
+}
