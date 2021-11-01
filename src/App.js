@@ -18,19 +18,19 @@ const App = () => {
     []
   )
 
-  const testData2 = React.useMemo(
-    () => [
-      {
-        label: 'Series 1',
-        data: [[0, 1], [1, 2], [2, 4], [3, 2], [4, 7]]
-      },
-    //   {
-    //     label: 'Series 2',
-    //     data: [[0, 3], [1, 1], [2, 5], [3, 6], [4, 4]]
-    //   }
-    ],
-    []
-  )
+  // const testData2 = React.useMemo(
+  //   () => [
+  //     {
+  //       label: 'Series 1',
+  //       data: [[0, 1], [1, 2], [2, 4], [3, 2], [4, 7]]
+  //     },
+  //   //   {
+  //   //     label: 'Series 2',
+  //   //     data: [[0, 3], [1, 1], [2, 5], [3, 6], [4, 4]]
+  //   //   }
+  //   ],
+  //   []
+  // )
 
   // const { data, randomizeData } = useChartConfig({
     //     series: 10,
@@ -57,7 +57,6 @@ const App = () => {
         <p style={{ fontSize: '1.4vmin', margin: 0, padding: 5, border: '2px solid grey', borderRadius: 5 }} className="cursor-pointer" onClick={() => alert('clicked')}> + widget</p>
       </div>
       <div style={{ 
-            height: 'auto', 
             display: 'flex', 
             flexDirection: 'row', 
             flexWrap: 'wrap', 

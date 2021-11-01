@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React from "react";
 import { PieChart, Pie, Cell } from "recharts";
 import Box from './Box';
 
@@ -64,9 +64,9 @@ export default function App() {
 }
 
 
-const styles = {
-    containerStyle: {
-        fontFamily: 'sans-serif',
-        textAign: 'center'
-    }
-}
+// const styles = {
+//     containerStyle: {
+//         fontFamily: 'sans-serif',
+//         textAign: 'center'
+//     }
+// }
