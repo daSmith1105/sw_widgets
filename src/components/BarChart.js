@@ -20,7 +20,7 @@ const BarChart = (props) => {
           { primary: true, type: 'ordinal', position: props.trucks ? 'left' : 'bottom' },
           { position: props.trucks ? 'bottom' : 'left', type: 'linear' }
         ],
-        []
+        [props.trucks]
     )
  
     return (
