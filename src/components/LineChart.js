@@ -6,8 +6,8 @@ const LineChart = (props) => {
  
   const axes = React.useMemo(
     () => [
-      { primary: true, type: 'linear', position: 'bottom' },
-      { type: 'linear', position: 'left' }
+      { primary: true, type: 'ordinal', position: 'bottom' },
+      { type: 'linear', position: 'left' },
     ],
     []
   )

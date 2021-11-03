@@ -17,8 +17,8 @@ const BarChart = (props) => {
  
     const axes = React.useMemo(
         () => [
-          { primary: true, type: 'ordinal', position: 'bottom' },
-          { position: 'left', type: 'linear', stacked: true }
+          { primary: true, type: 'ordinal', position: props.trucks ? 'left' : 'bottom' },
+          { position: props.trucks ? 'bottom' : 'left', type: 'linear' }
         ],
         []
     )
@@ -28,7 +28,7 @@ const BarChart = (props) => {
                 background: 'rgba(0, 27, 45, 0.9)',
                 padding: '.3rem',
                 borderRadius: '5px' }} >
-            <div style={{ height: '90%', width: '90%'}}>
+            <div style={{ height: '90%', width: '98%'}}>
                 <Chart data={props.data} series={props.series} axes={axes} dark stacked/>
             </div>
         </Box>
