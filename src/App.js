@@ -2,31 +2,31 @@ import React from 'react';
 import Widget from './components/Widget';
 import './App.css';
 
-const sites = [
-  { id: 1122, label: "Cadillac Asphault - Belleville" },
-  { id: 1058, label: "Lehigh Hanson - Clinton Agg" },
-  { id: 878, label: "Lehigh Hanson - Savanah Agg" },
-  { id: 1562, label: "Miles Resources - Lakeview" },
-  { id: 1446, label: "MMM - New Caney" },
-  { id: 1833, label: "RE Janes - Slanton" }
-];
+// const sites = [
+//   { id: 1122, label: "Cadillac Asphault - Belleville" },
+//   { id: 1058, label: "Lehigh Hanson - Clinton Agg" },
+//   { id: 878, label: "Lehigh Hanson - Savanah Agg" },
+//   { id: 1562, label: "Miles Resources - Lakeview" },
+//   { id: 1446, label: "MMM - New Caney" },
+//   { id: 1833, label: "RE Janes - Slanton" }
+// ];
 
-const timeframes = [
-  'today',
-  'past week',
-  'past month',
-  'past quarter',
-  'past 6 months',
-  'past year',
-  'since start'
-];
+// const timeframes = [
+//   'today',
+//   'past week',
+//   'past month',
+//   'past quarter',
+//   'past 6 months',
+//   'past year',
+//   'since start'
+// ];
 
-const alertTypes = [
-  'no ticket',
-  'weight difference',
-  'valve timeout',
-  'overweight'
-]
+// const alertTypes = [
+//   'no ticket',
+//   'weight difference',
+//   'valve timeout',
+//   'overweight'
+// ]
 
 const App = () => {
 
